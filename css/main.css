@@ -1,0 +1,762 @@
+@import '../bootstrap-5.2.2-dist/css/bootstrap.css';
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__container {
+  width: 1294px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  justify-content: space-between;
+  align-items: center;
+  width: 1294px;
+  height: 80px;
+}
+.nav .nav__list {
+  gap: 44px;
+  align-items: center;
+}
+.nav .nav__list li a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.nav .nav__list img {
+  width: 10px;
+  height: 5px;
+}
+.nav .nav__icon {
+  position: relative;
+  right: 47px;
+  gap: 37px;
+}
+.nav .nav__icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.container__banner {
+  width: 1294px;
+  height: 550px;
+  background: #DCE5E2;
+  border-radius: 32px;
+  align-items: center;
+}
+.container__banner .banner {
+  align-items: center;
+}
+.container__banner .banner .transfer__symbol {
+  position: relative;
+  top: 105px;
+}
+.container__banner .banner .banner__text {
+  position: relative;
+  left: 25px;
+}
+.container__banner .banner .banner__h2 {
+  height: 140px;
+  width: 577px;
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 70px;
+  color: #000000;
+}
+.container__banner .banner .banner__p {
+  width: 585px;
+  height: 39px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.container__banner .banner .banner__btn {
+  height: 50px;
+  width: 170px;
+  height: 50px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+}
+.container__banner .banner .banner__btn a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.container__banner .banner__img {
+  align-items: center;
+}
+.container__banner .banner__hr__all {
+  gap: 34px;
+}
+.container__banner .banner__hr__all .banner__hr {
+  position: relative;
+  top: -38px;
+  left: 322px;
+  width: 194px;
+  height: 2px;
+  background-color: #000000;
+  border: 0px solid #000000;
+}
+
+.categorie {
+  position: relative;
+  top: 75px;
+}
+.categorie .categorie__text {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  left: 80px;
+}
+.categorie .categorie__text .categorie__h1 {
+  position: relative;
+  height: 53px;
+  width: 780px;
+  left: 185.5px;
+  top: 19px;
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 52px;
+  color: #000000;
+}
+.categorie .categorie__text .categorie__p {
+  position: relative;
+  height: 34px;
+  width: 628px;
+  left: 261.5px;
+  top: 12px;
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 17px;
+  color: #000000;
+}
+.categorie .categorie__products {
+  position: relative;
+  top: 55px;
+  gap: 16px;
+}
+.categorie .categorie__products .laptop__watch .leptop {
+  height: 500px;
+  width: 639px;
+  background-color: #FFFFFF;
+  border-radius: 32px;
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+}
+.categorie .categorie__products .laptop__watch .leptop img {
+  position: relative;
+  left: 42px;
+}
+.categorie .categorie__products .laptop__watch .leptop .laptop_text .laptop__p {
+  position: relative;
+  left: 537px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000000;
+}
+.categorie .categorie__products .laptop__watch .leptop .laptop_text .laptop__h1 {
+  position: relative;
+  left: 405px;
+  width: 192px;
+  height: 77px;
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: right;
+  color: #000000;
+}
+.categorie .categorie__products .laptop__watch .watch {
+  position: relative;
+  top: 72px;
+  height: 270px;
+  width: 639px;
+  border-radius: 32px;
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+  background-color: #FFFFFF;
+  align-items: center;
+  gap: 46px;
+}
+.categorie .categorie__products .laptop__watch .watch .watch__p {
+  position: relative;
+  left: 107px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000000;
+}
+.categorie .categorie__products .laptop__watch .watch .watch__h1 {
+  position: relative;
+  left: 47px;
+  width: 128px;
+  height: 77px;
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+.categorie .categorie__products .phone__tablet {
+  gap: 16px;
+}
+.categorie .categorie__products .phone__tablet .phone {
+  height: 792px;
+  width: 312px;
+  background-color: #FFFFFF;
+  border-radius: 32px;
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+}
+.categorie .categorie__products .phone__tablet .phone img {
+  position: relative;
+  top: 144px;
+}
+.categorie .categorie__products .phone__tablet .phone .phone__text {
+  position: relative;
+  top: 175px;
+}
+.categorie .categorie__products .phone__tablet .tablet {
+  height: 792px;
+  width: 312px;
+  border-radius: 32px;
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+  background-color: #FFFFFF;
+}
+.categorie .categorie__products .phone__tablet .tablet .table__text {
+  position: relative;
+  margin-top: 115px;
+  align-items: center;
+  text-align: center;
+}
+.categorie .categorie__products .phone__tablet .tablet img {
+  position: relative;
+  top: 41px;
+}
+
+.bestsellers {
+  position: relative;
+  top: 255px;
+  align-items: center;
+  text-align: center;
+}
+.bestsellers .bestsellers__products {
+  position: relative;
+  top: 31px;
+  text-align: start;
+  gap: 90px;
+}
+.bestsellers .bestsellers__products .bestsellers__devices {
+  height: 396px;
+  width: 302.5px;
+}
+.bestsellers .bestsellers__products .bestsellers__devices .bestsellers__devices__texts {
+  position: relative;
+  top: 9px;
+}
+.bestsellers .bestsellers__products .bestsellers__devices .bestsellers__devices__texts h1 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+}
+.bestsellers .bestsellers__products .bestsellers__devices .bestsellers__devices__texts .p {
+  height: 51px;
+  width: 261px;
+  top: 41px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4B4B4B;
+}
+.bestsellers .bestsellers__products .bestsellers__devices .bestsellers__devices__texts p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.marketable {
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 330px;
+}
+.marketable .marketable__products__all {
+  justify-content: space-between;
+  position: relative;
+  top: 56px;
+}
+.marketable .marketable__products__all .marketable__products {
+  height: 453px;
+  width: 413px;
+  background-color: #F8F9FA;
+}
+.marketable .marketable__products__all .marketable__products .marketable__products__texts p {
+  position: relative;
+  margin-top: 41px;
+  left: 136px;
+  height: 17px;
+  width: 141px;
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+}
+.marketable .marketable__products__all .marketable__products .marketable__products__texts h1 {
+  position: relative;
+  top: -15px;
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #000000;
+}
+.marketable .marketable__products__all .marketable__products .marketable__products__texts button {
+  position: relative;
+  margin-top: 30px;
+  height: 50px;
+  width: 190px;
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  border-radius: 200px;
+}
+.marketable .marketable__products__all .marketable__products .marketable__products__texts button a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.ideas {
+  position: relative;
+  top: 515px;
+}
+.ideas .ideas__texts h1 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+.ideas .ideas__texts p {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
+.ideas .ideas__book {
+  position: relative;
+  top: 58px;
+  text-align: start;
+  gap: 35px;
+}
+.ideas .ideas__book .ideas__book__texts p {
+  position: relative;
+  margin-bottom: 28px;
+  width: 600px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: start;
+  line-height: 30px;
+  color: #000000;
+}
+
+.see__all {
+  justify-content: center;
+  position: relative;
+  top: 675px;
+  gap: 7px;
+}
+.see__all h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.search {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 735px;
+}
+.search .search-bar {
+  position: relative;
+  left: 300px;
+  top: 24px;
+  align-items: center;
+  height: 60px;
+  width: 650px;
+  border-radius: 100px;
+  background: #F8F9FA;
+}
+.search .search-bar button {
+  position: relative;
+  top: 18.63px;
+  margin-left: -420px;
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  font-size: 14px;
+  color: #000000;
+}
+.search .search-bar input {
+  position: relative;
+  top: 18.63px;
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  font-size: 14px;
+  color: #000000;
+}
+.search .search-bar input::-moz-placeholder {
+  position: relative;
+  left: -20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
+.search .search-bar input:-ms-input-placeholder {
+  position: relative;
+  left: -20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
+.search .search-bar input::placeholder {
+  position: relative;
+  left: -20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
+
+.products__buttons {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 785px;
+}
+.products__buttons .products__buttons__one {
+  gap: 7px;
+}
+.products__buttons .products__buttons__one .iphone {
+  width: 90px;
+  height: 42px;
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.products__buttons .products__buttons__one .charger {
+  width: 98px;
+  height: 42px;
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.products__buttons .products__buttons__one .gift {
+  width: 68px;
+  height: 42px;
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.products__buttons .products__buttons__one .gp3 {
+  width: 142px;
+  height: 42px;
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.products__buttons .products__buttons__one .keyboard {
+  width: 109px;
+  height: 42px;
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.products__buttons .products__buttons__two {
+  position: relative;
+  top: 7px;
+  gap: 7px;
+}
+.products__buttons .products__buttons__two .pm {
+  width: 118px;
+  height: 42px;
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.products__buttons .products__buttons__two .iph {
+  width: 109px;
+  height: 42px;
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.products__buttons .products__buttons__two .laptop {
+  width: 91px;
+  height: 42px;
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.products__buttons .products__buttons__two .mobile {
+  width: 89px;
+  height: 42px;
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.interesting {
+  position: relative;
+  top: 870px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.interesting .form__button {
+  position: relative;
+  left: 400px;
+}
+.interesting .form__button .email__bar {
+  width: 400px;
+  height: 50px;
+  background: #DCE5E2;
+  border: 1px solid #000000;
+  border-radius: 54px 0px 0px 54px;
+}
+.interesting .form__button .email__bar input {
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  top: 0px;
+  left: -15px;
+}
+.interesting .form__button button {
+  position: relative;
+  left: 165px;
+  top: -1px;
+  height: 50px;
+  width: 115px;
+  background: #000000;
+  border-radius: 0px 200px 200px 0px;
+  color: #FFFFFF;
+}
+
+.footer__container {
+  height: 378px;
+  width: 1440px;
+  position: relative;
+  top: 4000px;
+  background: #F8F9FA;
+}
+.footer__container .footer .california__black {
+  width: 394px;
+  height: 191px;
+  position: relative;
+  top: 45px;
+  left: 73px;
+}
+.footer__container .footer .california__black p {
+  position: relative;
+  top: 19px;
+  width: 304px;
+  height: 39px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.footer__container .footer .list {
+  gap: 93px;
+}
+.footer__container .footer .list .all__products,
+.footer__container .footer .list .company,
+.footer__container .footer .list .support,
+.footer__container .footer .list .follow__us {
+  position: relative;
+  top: 44px;
+}
+.footer__container .footer .list .all__products li a span,
+.footer__container .footer .list .company li a span,
+.footer__container .footer .list .support li a span,
+.footer__container .footer .list .follow__us li a span {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+}
+.footer__container .footer .list .all__products li a,
+.footer__container .footer .list .company li a,
+.footer__container .footer .list .support li a,
+.footer__container .footer .list .follow__us li a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+}
+.footer__container .hr {
+  position: relative;
+  top: 78px;
+  left: 45px;
+  width: 1200px;
+  height: 1px;
+  background: #DCE5E2;
+}
+.footer__container .az__web {
+  justify-content: space-between;
+  position: relative;
+  top: 131px;
+}
+.footer__container .az__web .az__web__texts p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.footer__container .az__web .az__web__texts p span {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}/*# sourceMappingURL=main.css.map */
